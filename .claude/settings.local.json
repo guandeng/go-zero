@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git submodule status)",
+      "Bash(git submodule update --init --recursive)",
+      "Read(//Users/guandeng/**)",
+      "Bash(git clone https://github.com/zeromicro/mcp-zero.git ~/.mcp-zero)",
+      "Bash(go build -o mcp-zero main.go)",
+      "Bash(claude mcp add mcp-zero --transport stdio --env GOCTL_PATH=/Users/guandeng/go/bin/goctl -- /Users/guandeng/.mcp-zero/mcp-zero)"
+    ]
+  }
+}

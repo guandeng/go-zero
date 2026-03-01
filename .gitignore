@@ -10,6 +10,14 @@
 !*/
 !api
 
+# Unignore .claude directory for AI tools
+!.claude/
+!.claude/**
+!.claude/ai-context/
+!.claude/ai-context/**
+!.claude/skills/
+!.claude/skills/**
+
 # ignore
 **/.idea
 **/.vscode
